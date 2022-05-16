@@ -40,11 +40,6 @@
           </p>
         </div>
       </div>
-      <div class="footer__team">
-        design with &#x02665; by
-        <a href="" class="footer__copy">mohammad nikoo &amp; tofiq hamza</a>
-        © 2021
-      </div>
     </div>
     <div class="overlay" :class="{ 'overlay--is-active': showSideBar }"></div>
   </footer>
