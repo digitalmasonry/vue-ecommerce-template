@@ -1,8 +1,5 @@
 <template>
   <header class="header header--bg">
-    <div class="header__shape">
-      <div class="header__shape-inner"></div>
-    </div>
     <div class="container">
       <div class="navbar">
         <div class="navbar__row">

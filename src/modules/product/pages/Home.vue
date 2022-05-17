@@ -1,24 +1,6 @@
 <template>
   <main class="main">
     <div class="container">
-      <div class="header__top">
-        <div class="header__top-content">
-          <h1 class="header__top-h1">spacody - webamooz</h1>
-          <p class="header__top-p">be professional</p>
-        </div>
-        <form class="header__form">
-          <div class="header__search">
-            <input
-              type="text"
-              class="header__serach-input"
-              placeholder="search..."
-            />
-            <button
-              class="header__search-btn btn btn--brand btn--boxshadow"
-            ></button>
-          </div>
-        </form>
-      </div>
       <div class="slideshow">
         <a
           href=""

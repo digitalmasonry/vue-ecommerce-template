@@ -16,7 +16,7 @@ main {
 }
 
 body {
-    background: #e4eff5;
+    background-image: url(../img/OTR/OTR_PATTERN_11x17_ANGLED_HORIZONTAL.01d85b365508a0ee00fb.jpg);
 }
 
 * {
@@ -112,13 +112,16 @@ ul li {
 }
 
 .header__logo {
-    width: 50px;
+    width: 200px;
     height: 50px;
+    object-fit: contain;
 }
 
 .header__logo-img {
-    background: url('../img/weblogo.png') no-repeat;
+    background: url('../img/OTR/otrr-sig.png') no-repeat;
+    background-size: contain;
     display: block;
+    object-fit: contain;
     height: 100%;
 }
 
@@ -135,7 +138,7 @@ ul li {
 }
 
 .navbar__link--is-active {
-    color: #46b1ef;
+    color: #6c757d;
 }
 
 .navbar__item {
@@ -232,7 +235,7 @@ ul li {
     left: -7px;
     top: -7px;
     color: #fff;
-    background: #46b1ef;
+    background: black;
     user-select: none;
 }
 
@@ -822,7 +825,7 @@ ul li {
 
 /*page category*/
 .header--bg {
-    background: linear-gradient(90deg, #46b1ef 0%, #46b1ef 50%, #f4f4f4 50%, #f4f4f4 50%, #f4f4f4 100%);
+    background: black;
     padding: 15px 0;
     margin-bottom: 60px;
 }
